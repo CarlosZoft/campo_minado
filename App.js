@@ -10,14 +10,16 @@ export default function App() {
       <Text>
         Tamanho da grade: {params.getRowsAmount()}x{params.getColumnsAmount()}
       </Text>
-      {/* <Field opened></Field> */}
-      {/* <Field opened nearMines={1}></Field>
+      <Field opened></Field>
+      <Field opened nearMines={1}></Field>
       <Field opened nearMines={2}></Field>
       <Field opened nearMines={3}></Field>
       <Field opened nearMines={6}></Field>
       <Field mined></Field>
       <Field mined opened></Field>
-      <Field mined opened exploded></Field> */}
+      <Field mined opened exploded></Field>
+      <Field flagged></Field>
+      <Field flagged opened></Field>
     </View>
   );
 }
