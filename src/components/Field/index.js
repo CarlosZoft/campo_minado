@@ -26,11 +26,7 @@ export default (props) => {
       {!mined && opened && nearMines > 0 && (
         <Text style={[styles.label, { color: color }]}>{nearMines}</Text>
       )}
-      {mined && opened && (
-        <Text>
-          <Mine />
-        </Text>
-      )}
+      {mined && opened && <Mine />}
     </View>
   );
 };
